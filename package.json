@@ -1,12 +1,17 @@
 {
+
   "name": "tp1js",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "ej01": "node ej01.js",
+    "ej02": "node ej02.js",
+    "ej03": "node ej03.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ciro_y_mateo",
   "license": "ISC",
   "description": ""
+
 }
