@@ -9,9 +9,13 @@ console.log(miObjeto);
 function parsearUrl(laURL){
 
     const objeto = new URL(laURL)
-    objeto.Host = URL.host
-    objeto.Pathname = URL.pathname
-    objeto.Parametros = new URLSearchParams() 
-    return objeto
+
+    const urla = {
+        Host : objeto.host,
+        Pathname : objeto.pathname,
+        Parametros : objeto.searchParams.toString()
+    }
+
+    return urla
     
 }
