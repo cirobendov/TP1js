@@ -1,12 +1,11 @@
 import { countries } from 'countries-list';
-const { countries } = require('countries-list');
 
 let monedaDelPais, codigoPais;
 codigoPais = 'AR';
 monedaDelPais = obtenerMoneda(codigoPais);
 console.log(`La moneda del país ${codigoPais} es: ${monedaDelPais}`);
 
-codigoPais = 'UZA';
+codigoPais = 'US';
 monedaDelPais = obtenerMoneda(codigoPais);
 console.log(`La moneda del país ${codigoPais} es: ${monedaDelPais}`);
 
